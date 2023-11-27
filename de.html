@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position examples</title>
+    <style>
+    #whatsapp{
+        height: 50px;
+        width: 50px;
+        background-color: aqua;
+        position: fixed;
+        left: fixed;
+        bottom: 30px;
+    }
+    #callicon{
+        height: 50px;
+        width: 50px;
+        background-color: white;
+        position: fixed;
+        left: fixed;
+        bottom: 50px;
+     }
+     #relative{
+        height: 400px;
+        width: 600px;
+        border: solid 1px red;
+        margin: auto;
+        position: relative;
+     }
+     #prev{
+        height: 50px;
+        width: 50px;
+        background: red;
+        top: 50%;
+        position: absolute;
+        margin-top: -25px;
+        right: 10px;
+        background-image:url(./images/pp.jpg)
+     }
+    </style>
+</head>
+<body>
+    <div id="relative">
+        <div id="prev"></div>
+        <div id="next"></div>
+        <img src="./images/home.png.png"width="600"height="400">
+    </div>
+    <div id="whatsapp"><img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Whatsapp2_colored_svg-512.png" height="50px" width="50px"></div>
+    <div id="call icon"><img src="https://cdn2.iconfinder.com/data/icons/boxicons-solid-vol-2/24/bxs-phone-call-256.png"
+         height="50px" width="50px">
+   </div>
+</body>
+</html>

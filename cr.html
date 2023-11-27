@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+        }
+        #report{
+            width:600px;
+            margin:auto;
+            border-collapse: collapse;
+        }
+        #report tr th{
+            background-color: blue;
+            color: aquamarine;
+            height: 40px;
+        }
+        #report tr td{
+            height: 30px;
+            text-align: center;
+        }
+        tr:nth-child(even) {background: #CCC}
+tr:nth-child(odd) {background: #FFF}
+    </style>
+</head>
+<body>
+    <table border="1"id="report">
+        <tr><th colspan="3">Employee Details</Details></th></tr>
+        <tr><th>s1 No</th><th>Name</th><th>Mobile No</th></tr>
+        <tr><td>1</td><td>vishal</td><td>8123222713</td></tr>
+        <tr><td>2</td><td>honny</td><td rowspan="2">0000000000</td></tr>
+        <tr><td>4</td></tr>kalaburagi<tr></tr><td></td>
+        <tr><td>3</td><td>jonny</td><td>1234567890</td></tr>
+    </table>
+    
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>z index</title>
+   <style>
+      #box{
+         height: 400px;
+         width:400px;
+         position: relative;
+         margin:auto;
+         border: solid 1px red;
+         background: red;
+         z-index: 2;
+      }
+      #sub{
+         height: 200px;
+         width:200px;
+         background-color: rgb(38, 0, 128);
+         position: absolute;
+         left:-100px;
+         z-index:1;
+         opacity: 0.4;
+      }
+      #sub1{
+         height: 200px;
+         width:200px;
+         background-color: orange;
+         position: absolute;
+         left:50px;
+         z-index:1;
+      }
+   </style>
+</head>
+<body>
+   <div id="box">
+      <div id="sub"></div>
+      <div id="sub1"></div>
+   </div>
+</body>
+</html>
